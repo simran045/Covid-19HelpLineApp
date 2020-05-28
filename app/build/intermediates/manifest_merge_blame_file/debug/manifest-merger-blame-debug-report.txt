@@ -1,0 +1,108 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.covid_19helpline"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:7:5-50:19
+14        android:allowBackup="true"
+14-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:12:9-35
+21        android:theme="@style/AppTheme" >
+21-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:13:9-40
+22        <activity
+22-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:14:9-95
+23            android:name="com.example.covid_19helpline.AboutUsActivity"
+23-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:14:19-50
+24            android:theme="@style/AppTheme1" />
+24-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:14:51-83
+25        <activity
+25-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:15:9-100
+26            android:name="com.example.covid_19helpline.InfectedSateActivity"
+26-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:15:19-55
+27            android:theme="@style/AppTheme1" />
+27-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:15:56-88
+28        <activity
+28-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:16:9-18:48
+29            android:name="com.example.covid_19helpline.CountryDetailsActivity"
+29-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:17:13-51
+30            android:theme="@style/AppTheme1" />
+30-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:18:13-45
+31        <activity
+31-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:20:9-28:20
+32            android:name="com.example.covid_19helpline.DistrictDetails"
+32-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:21:13-44
+33            android:theme="@style/AppTheme1" >
+33-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:22:13-45
+34            <intent-filter>
+34-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:23:13-27:29
+35                <action android:name=".DistrictDetails" />
+35-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:26:17-59
+35-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:26:25-56
+36            </intent-filter>
+37        </activity>
+38        <activity
+38-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:29:9-31:48
+39            android:name="com.example.covid_19helpline.InfectedActivity"
+39-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:30:13-45
+40            android:theme="@style/AppTheme1" />
+40-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:31:13-45
+41        <activity android:name="com.example.covid_19helpline.CovidHomePage" >
+41-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:32:9-38:20
+41-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:32:19-48
+42            <intent-filter>
+42-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:33:13-37:29
+43                <action android:name=".CovidHomePage" />
+43-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:34:17-57
+43-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:34:25-54
+44
+45                <category android:name="android.intent.category.DEFAULT" />
+45-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:36:17-76
+45-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:36:27-73
+46            </intent-filter>
+47        </activity>
+48        <activity android:name="com.example.covid_19helpline.MainActivity" >
+48-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:39:9-45:20
+48-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:39:19-47
+49            <intent-filter>
+49-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:40:13-44:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:41:17-69
+50-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:41:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:43:17-77
+52-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:43:27-74
+53            </intent-filter>
+54        </activity>
+55
+56        <meta-data
+56-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:47:9-49:57
+57            android:name="preloaded_fonts"
+57-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:48:13-43
+58            android:resource="@array/preloaded_fonts" />
+58-->C:\Users\SIMRAN\AndroidStudioProjects\Covid19Helpline\app\src\main\AndroidManifest.xml:49:13-54
+59    </application>
+60
+61</manifest>

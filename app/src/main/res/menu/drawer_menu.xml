@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <item android:title="General">
+
+       <menu>
+
+           <item
+               android:id="@+id/home"
+               android:icon="@drawable/home"
+               android:title="Home" />
+           <item
+               android:id="@+id/count"
+               android:title="INDIA Live Count"
+               android:icon="@drawable/live_count"/>
+           <item
+               android:id="@+id/district"
+               android:title="District-wise Cases"
+               android:icon="@drawable/districtcases"/>
+           <item
+               android:id="@+id/dos"
+               android:icon="@drawable/symptoms"
+               android:title="Do's" />
+           <item
+               android:id="@+id/dont"
+               android:title="Don't"
+               android:icon="@drawable/dont"/>
+       </menu>
+   </item>
+
+    <item android:title="Communicate">
+       <menu>
+
+
+           <item
+               android:id="@+id/helpline"
+               android:icon="@drawable/call"
+               android:title="HelpLine" />
+
+           <item
+               android:id="@+id/FAQ"
+               android:icon="@drawable/faq"
+               android:title="FAQ" />
+           <item
+               android:id="@+id/share"
+               android:title="Share"
+               android:icon="@drawable/share"/>
+
+       </menu>
+    </item>
+</menu>
